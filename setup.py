@@ -14,7 +14,16 @@ setuptools.setup(
     packages=setuptools.find_packages(),
 
     # Needed for dependencies
-    install_requires=['numpy'],
+    install_requires=[
+        'scipy',
+        'tables',
+        'lmfit',
+        'tqdm',
+        'numpy',
+        'matplotlib',
+        'pandas',
+        'joblib',
+    ],
     # *strongly* suggested for sharing
     version='0.0',
     # The license can be anything you like
